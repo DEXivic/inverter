@@ -34,7 +34,7 @@ module Inverter
       # original render
       render_without_inverter_object(context, options)
     end
-    protected :render_with_inverter_object
+    # protected :render_with_inverter_object
 
   end
 end
