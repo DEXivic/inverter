@@ -28,7 +28,7 @@ module Inverter
         self.response_body[0] = Inverter::Tags.update_html(self.response_body[0])
       end
     end
-    protected :render_with_inverter_object
+    # protected :render_with_inverter_object
 
   end
 end
