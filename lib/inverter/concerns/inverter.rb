@@ -18,7 +18,7 @@ module Mongoid
       field :_ignore_sync, type: Boolean, default: false
 
       ## History
-      track_history track_create: true
+      # track_history track_create: true
       # # telling Mongoid::History how you want to track changes
       # # dynamic fields will be tracked automatically (for MongoId 4.0+ you should include Mongoid::Attributes::Dynamic to your model)
       # track_history   :on => [:title, :body],       # track title and body fields only, default is :all
