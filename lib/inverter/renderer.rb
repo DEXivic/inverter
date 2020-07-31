@@ -33,7 +33,7 @@ module Inverter
 
         block = "#{ block }"
 
-        html[offset+pos[0]..offset+pos[1]] << block
+        html[offset+pos[0]..offset+pos[1]] = block.html_safe
 
         block_size          = block.size
         template_block_size = pos[1] - pos[0]
